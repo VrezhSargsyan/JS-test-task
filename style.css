@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+}
+
+.row {
+  height: inherit;
+}
+
+ul {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+li {
+  padding: 5px 0;
+}
+
+li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+li:nth-child(even) {
+  background-color: lightgray;
+}
